@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HOME</title>
+</head>
+
+<body>
+  <section class="slider-wrapper">
+    <button class="slide-arrow" id="slide-arrow-prev">
+      &#8249;
+    </button>
+    <button class="slide-arrow" id="slide-arrow-next">
+      &#8250;
+    </button>
+    <ul class="slides-container" id="slides-container">
+      <li class="slide"><img src="/img/banner1.jpg" alt=""></li>
+      <li class="slide"><img src="/img/banner2.jpg" alt=""></li>
+      <li class="slide"><img src="/img/banner3.jpg" alt=""></li>
+    </ul>
+  </section>
+  <header>
+
+    <div><a class="logo" href="home2.html">PUZZLES</a></div>
+    <!-- <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+           
+          </div> -->
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produtoteste.html">Produtos</a></li>
+        <li><a href="quemsomosteste.html">Quem somos</a></li>
+        <li><a href="faleConosco.html">Fale conosco</a></li>
+        <li><a href="hometeste.html">Reserva</a></li>
+        <li><a href="sejaumfranqueadoteste.html">Seja um franqueado</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+    <div class="conteiner">
+      <div class="logo2">
+      </div>
+
+      <div class="formulario">
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+          <h1 class="title">Cadastro!</h1>
+          <p style="color: aliceblue; font-size:20px; "> CUPOM DE DESCONTO!</p>
+          <p style="color:#eaf1ef; font-size:15px;">Cadastre-se agora e ganhe 10% de desconto. </p>
+          <br>
+
+          <input type=hidden name="oid" value="00DDo000001Cq0q">
+          <input type=hidden name="retURL" value="http://www.google.com">
+
+
+          <input id="first_name" placeholder="Primeiro Nome" maxlength="40" name="first_name" size="20" type="text" required /><br>
+
+          <input id="last_name" placeholder="Sobrenome" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+          <input id="email" placeholder="E-mail" maxlength="80" name="email" size="20" type="text" required /><br>
+
+          <input id="company" placeholder="Empresa" maxlength="40" name="company" size="20" type="text" /><br>
+
+          <input id="city" placeholder="Cidade" maxlength="40" name="city" size="20" type="text" /><br>
+
+          <input id="state" placeholder="Estado/Província" maxlength="20" name="state" size="20" type="text" required /><br>
+
+          <label for="tipo">Tipo:</label>
+          <select id="00NDo000000tdZf" name="00NDo000000tdZf" title="Tipo">
+            <option value="Cliente Final">Cliente Final</option>
+          </select><br><br>
+
+          <input type="submit" name="submit" value="Enviar">
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- <div class="texto">
+        <p style="color: aliceblue; font-size:30px; "> CUPOM DE DESCONTO!</p>
+        <p style="color:#5BD9B5; font-size:20px;">Cadastre-se agora e ganhe 10% de desconto. </p>
+        <p style="color:antiquewhite;"> Cadastre-se no formulário ao lado para receber ser desconto.</p>
+
+      </div>   -->
+
+  <script type="text/javascript" src="/src/script2.js"></script>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3>Siga-nos</h3>
+          <br>
+          <ul class="social-icons">
+            <li><a href="https://www.facebook.com/profile.php?id=100092305456031" target="_blank"><img src="../img/facebook.png" style="width: 50px; height: 50px;" alt=""><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/PUZZLESGAMESBAR/" target="_blank"><img src="../img/insta.png" alt="" style="width: 38px; height: 38px;"><i class="fa fa-instagram"></i></a></li>
+            <li><a href=" https://www.linkedin.com/in/puzzles-pub-e-game-660251275/" target="_blank"><img src="../img/linkedin.png" alt="" style="width: 50px; height: 50px;"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <p style="font-size: larger; color:#5BD9B5">Contato</p>
+          <p>Endereço: Rua Da Puzzles, 123</p>
+          <p>Telefone: (11) 1234-5678</p>
+          <p>Email: puzzlesprojetofinal@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
