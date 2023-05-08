@@ -408,6 +408,8 @@ body {
 .quemsomosdivs {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .quemsomosdivs>div {
