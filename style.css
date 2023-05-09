@@ -432,8 +432,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .quemsomosdivs>div {
+  .quemsomosdivs {
     width: 100vw;
+    display: flex;
     justify-content: column;
   }
 }
