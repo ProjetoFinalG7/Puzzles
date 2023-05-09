@@ -1,4 +1,4 @@
-//ANIMAÇÃO DO CARROCEL
+//ANIMAÇÃO DO CARROSSEL
 
 // Aqui está sendo definido as variáveis que irão armazenar elementos do HTML por meio de seus IDs ou classes.
 const slidesContainer = document.getElementById("slides-container");
