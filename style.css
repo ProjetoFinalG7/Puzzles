@@ -435,6 +435,6 @@ body {
   .quemsomosdivs {
     width: 100vw;
     display: flex;
-    justify-content: column;
+    flex-direction: column;
   }
 }
