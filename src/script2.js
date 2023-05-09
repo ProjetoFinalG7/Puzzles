@@ -34,7 +34,7 @@ function nextSlide() {
     }
   }
   
-  setInterval(nextSlide, 6000); // troca de slide a cada 5 segundos
+  setInterval(nextSlide, 5000); // troca de slide a cada 5 segundos
   
 //****************************************************************************************** ******
   // PAGINA DE RESERVA FUNÇÃO EMAIL
